@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "statushud",
+  "version": "${version}",
+  "name": "Status HUD",
+  "description": "A client-side HUD for performance, position, world time, and environment information.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.statushud.StatusHudClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
